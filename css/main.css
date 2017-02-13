@@ -1,0 +1,149 @@
+body {
+  	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+	margin: auto;
+	width:  80%;
+	height: 2em;
+	background-color: #555555;
+}
+
+.dropbtn {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.drop-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+    background-color: #f9f9f9;	
+}
+
+.drop-content a {
+	text-decoration: none;
+	color: black;
+	font-size: 75%;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: block;
+}
+
+.dropdown:hover .drop-content {
+	display: block;
+}
+
+.login {
+	float: right;
+	right: 20px;
+	margin-top: 5px;
+	margin-right: 5px
+}
+
+.login a {
+	text-decoration: none;
+	color: black;
+	font-size: 75%;
+}
+.offer {
+	margin: auto;
+	margin-top: 5px;
+	width: 80%;
+	height: 8em;
+    background: #18BC9C;
+    margin-bottom: 25px;
+}
+
+.offer h1 {
+ text-align:center; 
+  vertical-align: middle;
+  line-height: 4em;
+
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+.container li {
+	list-style-type: none;
+}
+
+
+.floating-box { /*floating-box*/
+/*  background-color: #ddd;
+  border:1px solid #999;
+*/  position: relative;
+  float: left;
+  height: 200px;
+  margin: 16px 4px; /* old value 2px and 1px */
+  width: 180px; /*if changed, change theScript.js as well*/
+}
+
+.ad { /*floating-box*/
+  background-color: #ddd;
+  border:1px solid #999;
+  position: relative;
+  float: left;
+  height: 200px;
+  margin: 2px 1px;
+  width: 180px; /*if changed, change theScript.js as well*/
+}
+
+.seg-line hr {
+	clear:both;
+	position: relative;
+	border: 0;
+	margin: auto;
+	height: 5px;
+	width: 80%;
+	background-color: #18BC9C;
+}
+
+.description {
+	margin: auto;
+	position: relative;
+	width: 80%;
+	height: 20em;
+	margin-bottom: 5px;
+}
+
+.description-text {
+	display: inline-block;
+	margin-left: 20px;
+	overflow-x: scroll; /* Hide horizontal scrollbar */
+    overflow-y: hidden; /* Add vertical scrollbar */
+}
+
+
+.footer {
+	position: relative;
+	margin: auto;
+	width:  80%;
+	height: 2em;
+	background: #18BC9C;
+    border: 3px solid #ffffff; /*without it .footer p is not vertically centered, don't know why */
+}
+
+.footer p {
+	text-align: center;
+	color: black;
+	font-size: 50%;
+}
+
+.container {
+	text-align: center;
+}
